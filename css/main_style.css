@@ -1,0 +1,438 @@
+/* сброс стилей браузера */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/* конец кода сброса стилей браузера */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+* {
+    /* #c3d9ff*/
+    background: #e7e7e7;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.dropdown-menu li {
+    margin-bottom: 0;
+    border: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway';
+    font-weight: 300;
+    color: #333;
+    font-size: 3em;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+.header {
+    height: 600px;
+    background: url(../img/header/worckplace.jpg);
+    background-size: cover;
+    background-attachment: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.underline {
+    border-bottom: 2px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tooltip-my {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-my .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip-my .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-my:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.grey-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: blur(3px);
+    transition: .5s;
+}
+
+.grey-img:hover {
+    filter: none;
+}
+
+.example {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.examples {
+    width: 30%;
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.link {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 15%;
+    color: #33495a;
+}
+
+.examples div p {
+    background: #33495a;
+    color: white;
+}
+
+.examples-container {
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #33495a;
+    opacity: 0;
+    margin: 0;
+}
+
+.examples:first-of-type {
+    background: url(../img/exmp/landing.png);
+    background-size: cover;
+}
+
+.examples:nth-of-type(4) {
+    background: url(../img/exmp/slider.jpg);
+    background-size: cover;
+}
+
+.examples:last-of-type {
+    background: url(../img/exmp/form-validation.jpg);
+    background-size: cover;
+}
+
+.examples:nth-of-type(5) {
+    background: url(../img/exmp/zoomable.jpg);
+    background-size: cover;
+}
+
+.examples:nth-of-type(6) {
+    background: url(../img/exmp/form-validation.jpg);
+    background-size: cover;
+}
+
+.examples:nth-child(4) {
+    background: url(../img/exmp/timer.jpg);
+    background-size: cover;
+}
+
+.examples:nth-child(5) {
+    background: url(../img/exmp/shop.jpg);
+    background-size: cover;
+}
+
+.examples-container:hover {
+    opacity: .8;
+    transition: .8s;
+}
+
+.link:hover {
+    background: black;
+    color: white;
+    font-size: 1.2em;
+    transition: .8s;
+    text-decoration: none;
+}
+
+.footer {
+    height: 200px;
+    padding-top: 50px;
+    background: #33495a;
+}
+
+.footer .row {
+    background: #33495a;
+}
+
+.footer p {
+    padding-top: 20%;
+    background: #33495a;
+    color: white;
+}
+
+.footer img {
+    padding-top: 10%;
+    background: #33495a;
+}
+
+.w {
+    background: #33495a;
+}
+
+p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.navigation {
+    /* background: #38af5c  !important;*/
+    margin-bottom: 0;
+    /*  border-bottom: 2px solid black; 
+     border-top: 2px solid black; */
+    border: none;
+
+}
+
+#bs-example-navbar-collapse-1,
+#bs-example-navbar-collapse-1 ul li,
+nav div {
+    background: #71b2c8;
+    
+}
+
+#bs-example-navbar-collapse-1,
+#bs-example-navbar-collapse-1 ul li,
+nav div a {
+    color: white !important;
+    
+}
+#bs-example-navbar-collapse-1,
+#bs-example-navbar-collapse-1 ul li,
+nav div a:hover {
+    color: black !important;
+    
+}
+
+.dropdown-menu {
+    background: #71b2c8;
+    
+}
+
+.contact {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 780px) {
+    .grey-img {
+        filter: none;
+    }
+
+    .examples-container {
+        opacity: .5;
+    }
+
+    .example {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .examples {
+        width: 92%;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    .footer a {
+
+        text-align: center;
+    }
+    .header {
+        height: 200px;
+    }
+}
