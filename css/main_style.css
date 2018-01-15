@@ -290,12 +290,12 @@ a {
 }
 
 .examples:first-of-type {
-    background: url(../img/exmp/landing.png);
+    background: url(../img/exmp/kanban-board.jpg);
     background-size: cover;
 }
 
 .examples:nth-of-type(4) {
-    background: url(../img/exmp/slider.jpg);
+    background: url(../img/exmp/monster_game.jpg);
     background-size: cover;
 }
 
@@ -305,7 +305,7 @@ a {
 }
 
 .examples:nth-of-type(5) {
-    background: url(../img/exmp/zoomable.jpg);
+    background: url(../img/exmp/stock_traider.jpg);
     background-size: cover;
 }
 
@@ -315,12 +315,12 @@ a {
 }
 
 .examples:nth-child(4) {
-    background: url(../img/exmp/timer.jpg);
+    background: url(../img/exmp/meetup_app.jpg);
     background-size: cover;
 }
 
 .examples:nth-child(5) {
-    background: url(../img/exmp/shop.jpg);
+    background: url(../img/exmp/recipe_book.jpg);
     background-size: cover;
 }
 
