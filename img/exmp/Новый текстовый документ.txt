@@ -1,0 +1,6 @@
+https://ng-recipe-book-d8024.firebaseapp.com/recipes    -   recipe book
+https://meetupforeveryone.firebaseapp.com   -  meetup
+https://defeat-the-monster.firebaseapp.com - monster_game
+https://kanban-board-3140a.firebaseapp.com - kanban board
+https://vue-stocktraider.firebaseapp.com - stock traider
+https://home-money-7db8f.firebaseapp.com - bookkeeping
